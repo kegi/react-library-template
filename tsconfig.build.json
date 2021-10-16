@@ -1,0 +1,19 @@
+{
+  "extends": "./tsconfig",
+  "compilerOptions": {
+    "target": "es6",
+    "declaration": true,
+    "noEmit": false,
+    "outDir": "dist",
+  },
+  "include": [
+    "src/components/*"
+  ],
+  "exclude": [
+    "__tests__",
+    "__snapshots__",
+    "**/*.test.{ts,tsx}",
+    "**/*.spec.{ts,tsx}",
+    "**/*.stories.{ts,tsx}"
+  ]
+}

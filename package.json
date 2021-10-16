@@ -1,0 +1,60 @@
+{
+  "name": "library",
+  "version": "0.0.1",
+  "private": false,
+  "license": "MIT",
+  "module": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist/",
+    "README.md"
+  ],
+  "peerDependencies": {
+    "react": "^17.0.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/jest": "^26.0.15",
+    "@types/node": "^12.0.0",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "concurrently": "^6.3.0",
+    "eslint-plugin-standard-cra": "^1.0.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "typescript": "^4.4.4",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "postinstall": "yarn build && cd demo && yarn install",
+    "test": "react-scripts test",
+    "build:clean": "rimraf dist",
+    "build:transpile": "tsc --project tsconfig.build.json",
+    "build": "yarn build:clean && yarn build:transpile",
+    "start": "concurrently --kill-others \"yarn build:transpile --watch\" \"cd demo && yarn start\"",
+    "lint": "eslint src",
+    "lint:fix": "yarn lint --fix"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest",
+      "plugin:standard-cra/recommended"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
