@@ -12,25 +12,13 @@
 This is a boilerplate to create a React library. This includes :
 
  - Tree shakeable build (ESM)
- - A working demo
- - Hot reloading on the demo
- - Supports TypeScript and export declarations
+ - A working demo with hot module reloading
+ - Supports TypeScript and handle declarations
  - Built on top of React CRA, compile with tsc
  - Deploy the demo on GH Pages (https://kegi.github.io/react-library-template/)
-
-## Linting
-This template come with **StandardJS** (and rules similar to **Airbnb** for **JSX**)
-
-To change it :
- 1) `yarn remove eslint-plugin-standard-cra`
- 2) remove the ref on `package.json` (`eslintConfig` > `extends`)
- 3) add your own rules
+ - Storybook
 
 ## Missing features :
- - storyboard
+ - publish only dist folder
+ - badge for test + coverage
  - support UMD build for UNPKG ?
-
-## Why not just use create-react-library ?
- - crl is not well maintained anymore
- - crl come with outtaded dependencies
- - crl doesn't support TypeScript out-of-the-box

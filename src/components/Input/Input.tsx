@@ -1,6 +1,6 @@
 import React, { ChangeEventHandler } from 'react'
 
-type InputProps = {
+export type InputProps = {
   value?: string
   onChange?: ChangeEventHandler<HTMLInputElement>
 }

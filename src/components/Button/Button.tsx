@@ -1,6 +1,6 @@
 import React, { MouseEventHandler } from 'react'
 
-type ButtonProps = {
+export type ButtonProps = {
   onClick?: MouseEventHandler<HTMLButtonElement>
   backgroundColor?: string
 }
