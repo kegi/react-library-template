@@ -16,6 +16,7 @@ This is a boilerplate to create a React library. This includes :
  - Hot reloading on the demo
  - Supports TypeScript and export declarations
  - Built on top of React CRA, compile with tsc
+ - Deploy the demo on GH Pages (https://kegi.github.io/react-library-template/)
 
 ## Linting
 This template come with **StandardJS** (and rules similar to **Airbnb** for **JSX**)
@@ -26,7 +27,6 @@ To change it :
  3) add your own rules
 
 ## Missing features :
- - deploy demo to GH pages
  - storyboard
  - support UMD build for UNPKG ?
 
