@@ -31,7 +31,9 @@
   },
   "scripts": {
     "postinstall": "yarn build && cd demo && yarn install",
-    "test": "react-scripts test",
+    "test": "react-scripts test --watchAll=false",
+    "test:watch": "react-scripts test",
+    "test:coverage": "react-scripts test --watchAll=false --coverage",
     "build:clean": "rimraf dist",
     "build:transpile": "tsc --project tsconfig.build.json",
     "build": "yarn build:clean && yarn build:transpile",
