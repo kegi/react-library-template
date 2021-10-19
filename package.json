@@ -18,8 +18,8 @@
     "lint:fix": "yarn lint --fix",
     "predeploy": "cd demo && yarn build",
     "deploy": "gh-pages -d demo/build",
-    "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public"
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "peerDependencies": {
     "react": "^17.0.0"
