@@ -3,12 +3,8 @@
   "version": "0.0.1",
   "private": false,
   "license": "MIT",
-  "module": "dist/index.js",
-  "typings": "dist/index.d.ts",
-  "files": [
-    "dist/",
-    "README.md"
-  ],
+  "module": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
   "scripts": {
     "postinstall": "yarn build && cd demo && yarn install",
     "test": "react-scripts test --watchAll=false",
@@ -17,7 +13,7 @@
     "build:clean": "rimraf dist",
     "build:transpile": "tsc --project tsconfig.build.json",
     "build": "yarn build:clean && yarn build:transpile",
-    "start": "concurrently --kill-others \"yarn build:transpile --watch\" \"cd demo && yarn start\"",
+    "start": "yarn build && concurrently --kill-others \"yarn build:transpile --watch\" \"cd demo && yarn start\"",
     "lint": "eslint src",
     "lint:fix": "yarn lint --fix",
     "predeploy": "cd demo && yarn build",
