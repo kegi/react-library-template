@@ -9,9 +9,9 @@
 </div>
 
 <div align="center">
-  <a href="https://app.travis-ci.com/github/kegi/react-library-template">
-    <img alt="build status" style="margin:3px"
-    src="https://img.shields.io/travis/com/kegi/react-library-template?style=flat-square" />
+  <a href="https://ci.appveyor.com/project/kegi/react-library-template/history">
+    <img alt="test coverage" style="margin:3px"
+    src="https://img.shields.io/appveyor/build/kegi/react-library-template?style=flat-square" />
   </a>
   <a href="https://coveralls.io/github/kegi/react-library-template">
     <img alt="test coverage" style="margin:3px"

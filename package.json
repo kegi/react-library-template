@@ -1,6 +1,6 @@
 {
   "name": "@kegi/react-library-template",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "React library template",
   "author": "Kevin Gilbert",
   "repository": "kegi/react-library-template",
@@ -19,7 +19,7 @@
     "deploy": "gh-pages -d demo/build",
     "publish:dist": "yarn build && node scripts/prepareDist.js && yarn publish dist --access public",
     "publish:code-coverage": "yarn test:coverage && cat ./coverage/lcov.info | coveralls",
-    "publish:chromatic": "npx chromatic --project-token=415ab169a741",
+    "publish:chromatic": "npx chromatic",
     "test": "react-scripts test --watchAll=false",
     "test:watch": "react-scripts test",
     "test:coverage": "react-scripts test --watchAll=false --coverage",
