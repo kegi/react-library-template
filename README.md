@@ -5,6 +5,9 @@
   <img alt="Made with Typescript" src="https://img.shields.io/badge/Made%20with-Typescript-2f74c0?style=for-the-badge&logo=typescript&labelColor=#333" style="margin:0 3px">
   <img alt="Made for React 16+"src="https://img.shields.io/badge/Made%20for-React%2016+-5ed3f3?style=for-the-badge&logo=react&labelColor=#333" style="margin:0 3px">
 </div>
+<div align="center" style="margin-top: 3px">
+<a href="https://app.travis-ci.com/github/kegi/react-library-template" target="_blank"><img alt="build status" src="https://img.shields.io/travis/com/kegi/react-library-template?style=flat-square" /></a>
+</div>
 
 ---
 
