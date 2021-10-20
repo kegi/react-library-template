@@ -17,8 +17,10 @@ This is a boilerplate to create a React library. This includes :
  - Built on top of React CRA, compile with tsc
  - Deploy the demo on GH Pages (https://kegi.github.io/react-library-template/)
  - Storybook + Chromatic (https://616f4d6a953f04003a6f3fac-pofrmbwvjs.chromatic.com/)
+ - Publish dist directory as root.
+   - ```import { Foo, Bar } from 'library'```
+   - ```import Foo from 'library/Foo'```
 
 ## Missing features :
- - publish only dist folder
  - badge for test + coverage
  - support UMD build for UNPKG ?
