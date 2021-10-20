@@ -16,7 +16,7 @@ This is a boilerplate to create a React library. This includes :
  - Supports TypeScript and handle declarations
  - Built on top of React CRA, compile with tsc
  - Deploy the demo on GH Pages (https://kegi.github.io/react-library-template/)
- - Storybook
+ - Storybook + Chromatic (https://616f4d6a953f04003a6f3fac-pofrmbwvjs.chromatic.com/)
 
 ## Missing features :
  - publish only dist folder

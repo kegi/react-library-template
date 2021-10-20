@@ -7,7 +7,9 @@ export default {
   title: 'components/Button',
 }
 
-const template: Story<ButtonProps> = props => <Button {...props} />
+type ButtonPropsWithChildren = ButtonProps | { children: React.ReactNode }
+
+const template: Story<ButtonPropsWithChildren> = props => <Button {...props} />
 
 export const Default = template.bind({})
 

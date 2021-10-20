@@ -8,3 +8,5 @@
 .env
 yarn-debug.log*
 yarn-error.log*
+/storybook-static/
+/build-storybook.log
