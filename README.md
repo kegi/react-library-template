@@ -17,10 +17,7 @@
     <img alt="test coverage" style="margin:3px"
     src="https://img.shields.io/coveralls/github/kegi/react-library-template?style=flat-square" />
   </a>
-  <a href="https://bundlephobia.com/package/@kegi/react-library-template">
-    <img alt="bundle size" style="margin:3px" 
-    src="https://img.shields.io/bundlephobia/min/@kegi/react-library-template?label=size&style=flat-square" />
-  </a>
+  <img alt="Tree shaking supported"src="https://flat.badgen.net/bundlephobia/tree-shaking/@kegi/react-library-template" style="margin:3px" />
   <a href="https://www.npmjs.com/package/@kegi/react-library-template">
     <img alt="bundle size" style="margin:3px" 
     src="https://img.shields.io/npm/l/@kegi/react-library-template?color=%23007ec6&style=flat-square" />
